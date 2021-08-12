@@ -1,0 +1,19 @@
+{
+    "name": "VIRobotics",
+    "version": "0.1.1",
+    "description": "Extension for RPi-VIRobotics module",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "virobotics.ts",
+        "_locales/zh-cn/virobotics-strings.json",
+        "_locales/zh-tw/virobotics-strings.json"
+    ],
+    "public": false,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
