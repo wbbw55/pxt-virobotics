@@ -1,0 +1,11 @@
+{
+    "VIRobotics.setRecogOn|block": "[VIRobotics] 开启通用识别器",
+    "VIRobotics.setRecogOff|block": "[VIRobotics] 关闭通用识别器",
+    "VIRobotics.getRecogResult|block": "[VIRobotics] 通用识别器结果",
+    "VIRobotics.printText|block": "[VIRobotics] 打印指定文本：$text|",
+    "{id:category}VIRobotics": "VIRobotics",
+    "{id:group}Generic": "通用",
+    "{id:group}Face": "人脸",
+    "{id:group}Posture": "姿态",
+    "{id:group}Other": "其它"
+}

@@ -1,6 +1,6 @@
 
 //% weight=5 color=#4B7A00 icon="\uf140"
-//% groups='["Generic", "Face", "Posture"]'
+//% groups='["Generic", "Face", "Posture", "Other"]'
 namespace VIRobotics {
 
     let cmd = pins.createBuffer(3);
@@ -39,6 +39,24 @@ namespace VIRobotics {
         basic.pause(10);
         let r = pins.i2cReadBuffer(addrI2c, 16, false);
         return r.toString().split('#')[0];
+    }
+    
+    //% blockId=print block="[VIRobotics] Print the Specified Text: $text|"
+    //% weight=95
+    //% group="Other"
+    export function printText(text:string): void {
+        let cmdText = pins.createBuffer(22);
+        cmdText[0] = "O".charCodeAt(0);
+        cmdText[1] = "P".charCodeAt(0);
+        for (let i=0; i<20; i++) {
+            if (text.length>i) {
+                cmdText[2+i] = text.charCodeAt(i);
+            } else {
+                cmdText[2+i] = 0;
+            }
+        }
+        pins.i2cWriteBuffer(addrI2c, cmdText);
+        basic.pause(100);
     }
 
     // ...
