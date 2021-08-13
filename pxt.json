@@ -8,8 +8,8 @@
     "files": [
         "README.md",
         "virobotics.ts",
-        "_locales/zh-cn/virobotics-strings.json",
-        "_locales/zh-tw/virobotics-strings.json"
+        "_locales/zh-cn/VIRobotics-strings.json",
+        "_locales/zh-tw/VIRobotics-strings.json"
     ],
     "public": false,
     "supportedTargets": [
