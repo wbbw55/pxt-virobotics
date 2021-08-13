@@ -1,11 +1,11 @@
 {
-    "VIRobotics.setRecogOn|block": "[VIRobotics] ¿ªÆôÍ¨ÓÃÊ¶±ğÆ÷",
-    "VIRobotics.setRecogOff|block": "[VIRobotics] ¹Ø±ÕÍ¨ÓÃÊ¶±ğÆ÷",
-    "VIRobotics.getRecogResult|block": "[VIRobotics] Í¨ÓÃÊ¶±ğÆ÷½á¹û",
-    "VIRobotics.printText|block": "[VIRobotics] ´òÓ¡Ö¸¶¨ÎÄ±¾£º$text|",
+    "VIRobotics.setRecogOn|block": "[VIRobotics] å¼€å¯é€šç”¨è¯†åˆ«å™¨",
+    "VIRobotics.setRecogOff|block": "[VIRobotics] å…³é—­é€šç”¨è¯†åˆ«å™¨",
+    "VIRobotics.getRecogResult|block": "[VIRobotics] é€šç”¨è¯†åˆ«å™¨ç»“æœ",
+    "VIRobotics.printText|block": "[VIRobotics] æ‰“å°æŒ‡å®šæ–‡æœ¬ï¼š$text|",
     "{id:category}VIRobotics": "VIRobotics",
-    "{id:group}Generic": "Í¨ÓÃ",
-    "{id:group}Face": "ÈËÁ³",
-    "{id:group}Posture": "×ËÌ¬",
-    "{id:group}Other": "ÆäËü"
+    "{id:group}Generic": "é€šç”¨",
+    "{id:group}Face": "äººè„¸",
+    "{id:group}Posture": "å§¿æ€",
+    "{id:group}Other": "å…¶å®ƒ"
 }
