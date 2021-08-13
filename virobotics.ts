@@ -45,10 +45,10 @@ namespace VIRobotics {
     //% weight=95
     //% group="Other"
     export function printText(text:string): void {
-        let cmdText = pins.createBuffer(22);
+        let cmdText = pins.createBuffer(32);
         cmdText[0] = "O".charCodeAt(0);
         cmdText[1] = "P".charCodeAt(0);
-        for (let i=0; i<20; i++) {
+        for (let i=0; i<30; i++) {
             if (text.length>i) {
                 cmdText[2+i] = text.charCodeAt(i);
             } else {
